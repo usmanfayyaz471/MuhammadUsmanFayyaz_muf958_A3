@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>COMP804 Assessment Task 3</title>
+
+<style>
+
+/* ===============================
+   GENERAL PAGE STYLE
+================================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f6f9;
+    line-height: 1.6;
+}
+
+/* ===============================
+   TASK 1 – HEADER STYLING
+================================= */
+.header-style {
+    color: white;
+    background-color: #0b1f44;
+    border: 3px solid #1abc9c;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* ===============================
+   SECTION HEADINGS
+================================= */
+.section-heading {
+    margin-top: 50px;
+    color: #0b1f44;
+    border-bottom: 3px solid #0b1f44;
+    padding-bottom: 5px;
+}
+
+/* ===============================
+   TASK 2 – KEY DATES TABLE
+================================= */
+.keydates {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.keydates th {
+    background-color: #0b1f44;
+    color: white;
+    text-align: left;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.keydates td {
+    padding: 14px;
+    font-size: 15px;
+}
+
+.keydates tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+.keydates tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.census-title {
+    font-weight: bold;
+    color: #0b1f44;
+}
+
+/* ===============================
+   TASK 3 – WEB ATTACK TABLE
+================================= */
+.attack-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.attack-table th {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+}
+
+.attack-table td {
+    border: 2px solid #8e44ad;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.attack-table img {
+    width: 150px;
+    margin-top: 5px;
+}
+
+/* ===============================
+   TASK 4 – BUTTONS
+================================= */
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.active {
+    background-color: orange !important;
+}
+
+#imageArea img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= TASK 1 ================= -->
+
+<h1 class="header-style">Muhammad Usman Fayyaz - MUF958</h1>
+<h2 class="header-style">COMP804 – Web Security</h2>
+<h3 class="header-style">Assessment Task 3 – Due 1 March 2026</h3>
+
+<!-- ================= TASK 2 ================= -->
+
+<h2 class="section-heading">Task 2 – 2026 Offshore Sessions Key Dates</h2>
+
+<table class="keydates">
+<tr>
+<th>Activity</th>
+<th>Date</th>
+</tr>
+
+<tr><td>First day to enrol for re-enrolling (continuing students)</td><td>24 Nov 2025</td></tr>
+<tr><td>First day to enrol for new students (commencing students)</td><td>01 Dec 2025</td></tr>
+
+<tr>
+<td>Orientation</td>
+<td>
+23 Feb – 26 Feb 2026 (Wollongong campus)<br><br>
+Further information is available on 
+<a href="https://www.uow.edu.au/student/getstarted/" target="_blank">Get Started</a>
+</td>
+</tr>
+
+<tr><td>Lectures Commence (weeks 1 – 7)</td><td>02 Mar – 17 Apr 2026</td></tr>
+<tr><td>Last day to enrol / add subjects yourself</td><td>13 Mar 2026</td></tr>
+<tr><td>Last day to enrol / add subjects with Head of Students approval (Exceptional circumstance only)</td><td>20 Mar 2026</td></tr>
+
+<tr>
+<td class="census-title">
+CENSUS DATE<br><br>
+• Fees due<br>
+• Last day to withdraw from subject/s without paying for them<br>
+• HECS / FEE HELP debt reporting date<br>
+• Last day to change HECS / FEE HELP billing option<br><br>
+<a href="https://www.uow.edu.au/student/fees/census-dates/" target="_blank">
+Learn more about Census date >
+</a>
+</td>
+<td>31 Mar 2026</td>
+</tr>
+
+<tr><td>Student Services and Amenities Fees Due</td><td>01 Apr 2026</td></tr>
+
+<tr>
+<td>
+Last day to withdraw without academic penalty - subject deleted from record<br><br>
+Fail grade recorded if subject withdrawn after this date
+</td>
+<td>08 May 2026</td>
+</tr>
+
+<tr><td>Mid-Session Recess (1 week)</td><td>20 Apr – 24 Apr 2026</td></tr>
+<tr><td>Lectures Recommence (weeks 8 – 13)</td><td>27 Apr – 05 Jun 2026</td></tr>
+<tr><td>Study Recess (1 week)</td><td>08 Jun – 12 Jun 2026</td></tr>
+<tr><td>Exams (2 weeks)</td><td>13 Jun – 25 Jun 2026</td></tr>
+<tr><td>Mid-Year Recess / End of session break (4 weeks)</td><td>29 Jun – 24 Jul 2026</td></tr>
+<tr><td>Release of Results</td><td>09 Jul 2026</td></tr>
+<tr><td>Supplementary and deferred exam period</td><td>20 Jul – 24 Jul 2026</td></tr>
+
+</table>
+
+<!-- ================= TASK 3 ================= -->
+
+<h2 class="section-heading">Task 3 – 10 Types of Web Attacks</h2>
+
+<table class="attack-table">
+<tr>
+<th>Name</th>
+<th>Web Attacks</th>
+</tr>
+
+<tr><td>SQL Injection<br><img src="sql.jpg" alt="SQL Injection attack illustration"></td><td>SQL Injection exploits vulnerabilities in database-driven applications. Attackers insert malicious SQL statements into input fields. This can result in unauthorized access or data loss.<br><a href="https://owasp.org/www-community/attacks/SQL_Injection" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Cross-Site Scripting (XSS)<br><img src="xss.jpg" alt="Cross Site Scripting XSS attack example"></td><td>XSS allows attackers to inject malicious scripts into web pages. These scripts execute in users' browsers and can steal session data.<br><a href="https://owasp.org/www-community/attacks/xss/" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Cross-Site Request Forgery (CSRF)<br><img src="csrf.jpg" alt="CSRF attack diagram"></td><td>CSRF tricks authenticated users into submitting unintended requests. It exploits trust between browser and website.<br><a href="https://owasp.org/www-community/attacks/csrf" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Phishing<br><img src="phishing.jpg" alt="Phishing attack example"></td><td>Phishing deceives users into revealing personal information. Attackers impersonate trusted organizations through fake websites or emails.<br><a href="https://www.cyber.gov.au" target="_blank">Reference – ACSC</a></td></tr>
+
+<tr><td>Man-in-the-Middle (MITM)<br><img src="mitm.jpg" alt="Man in the Middle attack diagram"></td><td>MITM intercepts communication between two parties. Attackers can eavesdrop or modify transmitted data.<br><a href="https://owasp.org/www-community/attacks/Man-in-the-middle_attack" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>DDoS<br><img src="ddos.jpg" alt="DDoS attack illustration"></td><td>DDoS floods servers with massive traffic making services unavailable to legitimate users.<br><a href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/" target="_blank">Reference – Cloudflare</a></td></tr>
+
+<tr><td>Brute Force Attack<br><img src="bruteforce.jpg" alt="Brute force attack example"></td><td>Brute force attacks attempt many password combinations until the correct one is found.<br><a href="https://owasp.org/www-community/attacks/Brute_force_attack" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Session Hijacking<br><img src="session.jpg" alt="Session hijacking attack example"></td><td>Session hijacking steals session IDs allowing attackers to impersonate users.<br><a href="https://owasp.org/www-community/attacks/Session_hijacking_attack" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Clickjacking<br><img src="clickjacking.jpg" alt="Clickjacking attack diagram"></td><td>Clickjacking tricks users into clicking hidden elements performing unintended actions.<br><a href="https://owasp.org/www-community/attacks/Clickjacking" target="_blank">Reference – OWASP</a></td></tr>
+
+<tr><td>Malware Injection<br><img src="malware.jpg" alt="Malware infection example"></td><td>Malware injection inserts malicious code into websites compromising visitors' systems.<br><a href="https://www.cisa.gov" target="_blank">Reference – CISA</a></td></tr>
+
+</table>
+
+<!-- ================= TASK 4 ================= -->
+
+<h2 class="section-heading">Task 4 – JavaScript Buttons</h2>
+
+<button id="catBtn" onclick="selectAnimal('Cat','cat.jpg')">Cat</button>
+<button id="dogBtn" onclick="selectAnimal('Dog','dog.jpg')">Dog</button>
+<button id="frogBtn" onclick="selectAnimal('Frog','frog.jpg')">Frog</button>
+
+<br><br>
+
+<input type="text" id="textField" readonly>
+<p id="messageArea"></p>
+<div id="imageArea"></div>
+
+<script>
+function selectAnimal(animal, imageFile) {
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    document.getElementById(animal.toLowerCase()+"Btn").classList.add("active");
+    document.getElementById("textField").value = "User clicks " + animal;
+    document.getElementById("messageArea").innerHTML = animal + " is clicked";
+    document.getElementById("imageArea").innerHTML =
+        "<img src='" + imageFile + "' alt='" + animal + " image'>";
+}
+</script>
+
+<!-- ================= TASK 5 ================= -->
+
+<h2 class="section-heading">Task 5 – GitHub Repository</h2>
+
+<p>
+<a href="report.pdf" target="_blank">Click here to open GitHub Report</a>
+</p>
+
+<p>
+<a href="https://github.com/usmanfayyaz471/COMP804MuhammadUsmanFayyaz_muf958_A3.git" target="_blank">
+Visit My GitHub Repository
+</a>
+</p>
+
+</body>
+</html>
